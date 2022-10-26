@@ -12,6 +12,7 @@ html {
     --fontOne:'Montserrat', sans-serif;
     --fontTwo:'Fraunces', serif;
     --darkCyan: hsl(158, 36%, 37%);
+    --veryDarkCyan: hsl(158, 38%, 24%);
     --cream: hsl(30, 38%, 92%);
     --veryDarkBlue: hsl(212, 21%, 14%);
     --darkGrayishBlue: hsl(228, 12%, 48%);
@@ -51,7 +52,16 @@ main {
 .imageDesktop {
     display: none;
     width: 100%;
+    width: 50%;
+    border-radius: 5px 0px 0px 5px;
 
+}
+
+section {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 p {
@@ -60,18 +70,19 @@ p {
     color: var(--darkGrayishBlue);
     align-self: flex-start;
     margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 43px;
+    margin-right: 28px;
     line-height: 25px;
 
+}
+
+.perfume {
+    letter-spacing: 3px;
 }
 
 h1 {
     font-size: 3rem;
     font-family: var(--fontTwo);
     color: var(--veryDarkBlue);
-    margin-left: 15px;
-    margin-right: 15px;
     margin-bottom: 10px;
 
 }
@@ -80,7 +91,6 @@ h1 {
     display: flex;
     align-items: center;
     align-self: flex-start;
-    margin-left: 15px;
     margin-bottom: 10px;
 }
 
@@ -92,7 +102,7 @@ h1 {
 }
 
 .block p {
-    translate: 0% 5px;
+    translate: 10px 5px;
     text-decoration: line-through;
 }
 
@@ -111,13 +121,15 @@ button {
     color: var(--white);
     border: none;
     border-radius: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
     padding: 10px;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: var(--veryDarkCyan)
+}
 
 
 

@@ -1,0 +1,28 @@
+main {
+    flex-direction: row;
+    align-items: stretch;
+    width: 530px;
+    margin: 0px;
+    height: 400px;
+}
+
+section {
+    padding: 20px;
+}
+
+.imageMobile {
+    display: none;
+}
+
+.imageDesktop {
+    display: block;
+}
+
+p {
+    margin-right: 0px;
+}
+
+.attribution { 
+    position: absolute;
+    top: 94%;
+}
