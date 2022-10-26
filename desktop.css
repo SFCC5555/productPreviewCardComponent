@@ -4,7 +4,6 @@ body {
 
 main {
     flex-direction: row;
-    align-items: stretch;
     width: 530px;
     margin: 0px;
     height: 400px;
@@ -21,6 +20,7 @@ section {
 .imageDesktop {
     display: block;
     width: 50%;
+    height: 400PX;
 }
 
 p {
