@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 4px;
-    background-color: red;
+    background-color: var(--cream);
 }
 
 main {
