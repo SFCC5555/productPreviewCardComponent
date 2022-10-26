@@ -135,6 +135,8 @@ button:hover {
 .attribution { 
     font-size: 1.1rem; 
     text-align: center;
+    position: absolute;
+    top: 94%;
 }
 
 .attribution a {
